@@ -32,6 +32,8 @@ If you have valid auth data, open up siriAuth.rb and replace the appropriate inf
 
 Then to run the auth server, its just 'sudo ruby ./start.rb' (no quotes)
 
+and yes, you will need to update the key(s) every 24 hours.
+
 
 All credit goes down to these people:
 
