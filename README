@@ -16,7 +16,7 @@ If you already have all the stuff installed to run it, you can generate certific
 
 then once you've done that, install ca.crt to your device.
 
-You need valid auth keys from an iPhone 4S, to get these, check out my other git repo 'AuthGrabber'
+You need valid auth keys from an iPhone 4S, to get these, check out my other git repo 'AuthGrabber' (https://github.com/StanTheRipper/AuthGrabber)
 
 If you have valid auth data, open up siriAuth.rb and replace the appropriate info where it says:
 
