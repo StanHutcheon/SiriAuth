@@ -1,0 +1,39 @@
+This is a modified version of SiriProxy by plamoni (which was based off applidiums 'Cracking-Siri') which allows non-iPhone 4S users to use Siri.
+
+Requirements:
+
+ -An A4 chip device (iPhone 4, iPod Touch 4, iPhone 3GS, iPad [1])
+ -A listening Siri (Please don't ask where to get this, Google is your best friend)
+ -A UNIX system (Linux, Mac)
+ -Some general knowledge about computers.
+
+
+To install all needed stuff for this to work, just run 'sudo ./install.sh' (no quotes)
+
+If you already have all the stuff installed to run it, you can generate certificates by running:
+
+./scripts/certs.sh
+
+then once you've done that, install ca.crt to your device.
+
+You need valid auth keys from an iPhone 4S, to get these, check out my other git repo 'AuthGrabber'
+
+If you have valid auth data, open up siriAuth.rb and replace the appropriate info where it says:
+
+ XAceHostKey = 'ace'
+
+ ValidationDataKey = 'validationdata'
+
+ AssistantIDKey = 'assistantid'
+
+ SpeechIDKey = 'speechid'
+
+(You don't need a fancy data converter for the ValidationData btw)
+
+Then to run the auth server, its just 'sudo ruby ./start.rb' (no quotes)
+
+
+All credit goes down to these people:
+
+ -Applidium for creating Cracking-Siri
+ -plamoni for using Cracking-Siri to create SiriProxy
