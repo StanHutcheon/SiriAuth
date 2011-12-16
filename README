@@ -2,9 +2,9 @@ This is a modified version of SiriProxy by plamoni (which was based off applidiu
 
 Requirements:
 
- -An A4 chip device (iPhone 4, iPod Touch 4, iPhone 3GS, iPad [1])
+ -One of the following devices: iPhone 4, iPod Touch 4, iPhone 3GS, iPad 1
  -A listening Siri (Please don't ask where to get this, Google is your best friend)
- -A UNIX system (Linux, Mac)
+ -A Linux system (use virtualbox if you're running windows or mac)
  -Some general knowledge about computers.
 
 
@@ -35,6 +35,8 @@ Then to run the auth server, its just 'sudo ruby ./start.rb' (no quotes)
 
 and yes, you will need to update the key(s) every 24 hours.
 
+If you need anymore help, please read:
+http://www.stantheripper.com/siri
 
 All credit goes down to these people:
 
