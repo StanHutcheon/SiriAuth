@@ -35,6 +35,8 @@ Then to run the auth server, its just 'sudo ruby ./start.rb' (no quotes)
 
 and yes, you will need to update the key(s) every 24 hours.
 
+use update.sh to update your version of SiriAuth to the latest version (straight from GitHub)
+
 If you need anymore help, please read:
 http://www.stantheripper.com/siri
 
