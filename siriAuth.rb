@@ -7,10 +7,10 @@ require 'pp'
 require 'tweakSiri'
 require 'interpretSiri'
 
-XAceHostKey = 'ace'
-ValidationDataKey = 'validationdata'
-AssistantIDKey = 'assistantid'
-SpeechIDKey = 'speechid'
+XAceHostKey = "ace"
+ValidationDataKey = "validationdata"
+AssistantIDKey = "assistantid"
+SpeechIDKey = "speechid"
 
 LOG_LEVEL = 5
 
