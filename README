@@ -21,17 +21,17 @@ You need valid auth keys from an iPhone 4S, to get these, check out my other git
 
 If you have valid auth data, open up siriAuth.rb and replace the appropriate info where it says:
 
- XAceHostKey = 'ace'
+ XAceHostKey = "ace"
 
- ValidationDataKey = 'validationdata'
+ ValidationDataKey = "validationdata"
 
- AssistantIDKey = 'assistantid'
+ AssistantIDKey = "assistantid"
 
- SpeechIDKey = 'speechid'
+ SpeechIDKey = "speechid"
 
 (You don't need a fancy data converter for the ValidationData btw)
 
-Then to run the auth server, its just 'sudo ruby ./start.rb' (no quotes)
+Then to run the auth server, its just 'rvmsudo ruby ./start.rb' (no quotes)
 
 and yes, you will need to update the key(s) every 24 hours.
 
