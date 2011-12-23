@@ -1,8 +1,7 @@
 read -p "Please enter here the domain or IP address of your Siri server (thing.something.com or 12.34.56.78): " SERVER
 read -p "Now enter your name: " NAME
 read -p "Now enter your email: " EMAIL
-read -p "When it asks for a password, just enter 'pass' for all of them (no quotations) Press enter to continue..."
-cd ../
+read -p "When it asks for a password, just enter 'pass' for all of them (no quotations) Press enter to continue..." UNUSED
 openssl genrsa -out ca.key 1024
 openssl req -new -x509 -days 365 -key ca.key -out ca.crt << EOF
 US
@@ -34,5 +33,5 @@ openssl rsa -in server.key -out server.key.insecure
 mv server.key server.key.secure
 mv server.key.insecure server.passless.key
 echo "Created."
+sudo rm ca.key server.csr server.key.secure
 echo "Install ca.crt to your device by emailing it to yourself or putting it up on a web server or something."
-cd scripts
